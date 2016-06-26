@@ -4,6 +4,10 @@
 }
 
 h3 {
-	background-color: #9090cc;
+	background-color: #aaaadd;
 	color: #f44d27;
+}
+
+.content div p:nth-child(odd) {
+	background-color: #ccccff;
 }
