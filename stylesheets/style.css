@@ -1,12 +1,18 @@
+/* All Elements*/
+/*================================*/
 * {
 	background-color: #bbbbee;
 	color: #413932;
 }
 
+/* Header and Footer*/
+/*================================*/
 header, footer {
 	text-align: center;
 }
 
+/* Header*/
+/*================================*/
 h2 {
 	margin-bottom: 0px;
 }
@@ -15,6 +21,17 @@ nav {
 	margin-top: 3px;
 	margin-bottom: 10px;
 }
+
+/* Main content*/
+/*================================*/
+h3 {
+	background-color: #aaaadd;
+	color: #f44d27;
+	padding: 4px;
+	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 2px;
+}
+
 .content {
 	display: flex;
 	flex-wrap: wrap;
@@ -23,14 +40,6 @@ nav {
 .content div {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-h3 {
-	background-color: #aaaadd;
-	color: #f44d27;
-	padding: 4px;
-	border-radius: 5px 5px 0px 0px;
-	margin-bottom: 2px;
 }
 
 .content div p:nth-child(odd), .content div p:nth-child(odd) span {
@@ -43,6 +52,9 @@ h3 {
 	padding: 2px;
 }
 
+/* Bold and italic elements */
+/* Didn't use <b> and <em> to prevent background-color changing */
+/*================================*/
 .bold {
 	font-weight: bold;
 }
