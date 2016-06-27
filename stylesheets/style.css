@@ -22,10 +22,15 @@ h3 {
 	color: #f44d27;
 	padding: 4px;
 	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 0px;
 }
 
 .content div p, span:nth-child(odd) {
 	background-color: #ccccff;
+}
+
+.content div p {
+	margin-top: 0px;
 }
 
 .bold {
