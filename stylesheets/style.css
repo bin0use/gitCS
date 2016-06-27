@@ -20,6 +20,7 @@ nav ul li {
 h3 {
 	background-color: #aaaadd;
 	color: #f44d27;
+	padding: 4px;
 }
 
 .content div p, span:nth-child(odd) {
