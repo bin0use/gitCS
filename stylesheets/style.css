@@ -22,7 +22,7 @@ h3 {
 	color: #f44d27;
 	padding: 4px;
 	border-radius: 5px 5px 0px 0px;
-	margin-bottom: 0px;
+	margin-bottom: 2px;
 }
 
 .content div p:nth-child(odd), .content div p:nth-child(odd) span {
@@ -31,6 +31,8 @@ h3 {
 
 .content div p {
 	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 2px;
 }
 
 .bold {
