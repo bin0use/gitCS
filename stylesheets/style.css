@@ -12,6 +12,11 @@ nav ul li {
 	flex-wrap: wrap;
 }
 
+.content div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 h3 {
 	background-color: #aaaadd;
 	color: #f44d27;
