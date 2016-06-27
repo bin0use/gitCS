@@ -3,6 +3,10 @@
 	color: #413932;
 }
 
+header {
+	text-align: center;
+}
+
 nav ul li {
 	display: inline;
 }
