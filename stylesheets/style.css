@@ -21,6 +21,7 @@ h3 {
 	background-color: #aaaadd;
 	color: #f44d27;
 	padding: 4px;
+	border-radius: 5px 5px 0px 0px;
 }
 
 .content div p, span:nth-child(odd) {
