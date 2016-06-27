@@ -3,6 +3,10 @@
 	color: #413932;
 }
 
+nav ul li {
+	display: inline;
+}
+
 h3 {
 	background-color: #aaaadd;
 	color: #f44d27;
