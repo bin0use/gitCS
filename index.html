@@ -19,84 +19,84 @@
 	</header>
 	<div class="content">
 		<div><h3>Create Repository</h3>
-			<p><b>From existing directory</b></p>
-				<p>cd <i>project_dir</i></p>
+			<p class="bold">From existing directory</p>
+				<p>cd <span>project_dir</span></p>
 				<p>git init</p>
 				<p>git add </p>
-			<p><b>From other repository</b></p>
-				<p>git clone <i>existing_dir new_dir</i></p>
-				<p>git clone <i>git://github.com/user/repo.git</i></p>
-				<p>git clone <i>https://github.com/user/repo.git</i></p>
+			<p class="bold">From other repository</p>
+				<p>git clone <span>existing_dir new_dir</span></p>
+				<p>git clone <span>git://github.com/user/repo.git</span></p>
+				<p>git clone <span>https://github.com/user/repo.git</span></p>
 		</div>
 		<div><h3>Changes</h3>
-			<p><b>Changes in working directory</b></p>
+			<p class="bold">Changes in working directory</p>
 				<p>git status</p>
-			<p><b>Tracked file changes</b></p>
+			<p class="bold">Tracked file changes</p>
 				<p>git diff</p>
-			<p><b>Add changed files</b></p>
-				<p>git add <i>file1 file2 file3 ...</i></p>
-			<p><b>Riove file</b></p>
-				<p>igit rm <i>file</i></p>
-			<p><b>See files ready for commit</b></p>
+			<p class="bold">Add changed files</p>
+				<p>git add <span>file1 file2 file3 ...</span></p>
+			<p class="bold">Remove file</p>
+				<p>git rm <span>file</span></p>
+			<p class="bold">See files ready for commit</p>
 				<p>git dif --cached</p>
-			<p><b>Commit changes</b></p>
+			<p class="bold">Commit changes</p>
 				<p>git commit</p>
 				<p>git commit -m "message"</p>
 				<p>git commit -am "message"</p>
-				<p><i>(auto add tracked files)</i></p>
-			<p><b>Change last commit</b></p>
+				<p><span>(auto add tracked files)</span></p>
+			<p class="bold">Change last commit</p>
 				<p>git commit --amend</p>
-			<p><b>Revert changes to file</b></p>
-				<p>git checkout -- <i>file</i></p>
-			<p><b>Revert changes (new commit)</b></p>
+			<p class="bold">Revert changes to file</p>
+				<p>git checkout -- <span>file</span></p>
+			<p class="bold">Revert changes (new commit)</p>
 				<p>git revert HEAD</p>
-			<p><b>Return to last commited state</b></p>
+			<p class="bold">Return to last commited state</p>
 				<p>git reset --hard HEAD</p>
 		</div>
 		<div><h3>History</h3>
-			<p><b>Show all comits</b></p>
+			<p class="bold">Show all comits</p>
 				<p>git log</p>
-			<p><b>Show file commits</b></p>
-				<p>git log <i>file</i></p>
-			<p><b>Show directory commits</b></p>
-				<p>git log <i>dir/</i></p>
-			<p><b>Who changed file</b></p>
-				<p>git blame <i>file</i></p>
+			<p class="bold">Show file commits</p>
+				<p>git log <span>file</span></p>
+			<p class="bold">Show directory commits</p>
+				<p>git log <span>dir/</span></p>
+			<p class="bold">Who changed file</p>
+				<p>git blame <span>file</span></p>
 		</div>
 		<div><h3>Merge/Rebase</h3>
-			<p><b>Merge branch into current</b></p>
-				<p>git merge <i>branch</i></p>
-			<p><b>Rebase into branch</b></p>
-				<p>git rebase <i>branch</i></p>
-				<p>git rebase <i> master branch</i></p>
+			<p class="bold">Merge branch into current</p>
+				<p>git merge <span>branch</span></p>
+			<p class="bold">Rebase into branch</p>
+				<p>git rebase <span>branch</span></p>
+				<p>git rebase <span> master branch</span></p>
 		</div>
 		<div><h3>Remote Update / Publish</h3>
-			<p><b>List remotes</b></p>
+			<p class="bold">List remotes</p>
 				<p>git remote -v</p>
-			<p><b>Show information</b></p>
-				<p>git remote show <i>remote</i></p>
-			<p><b>Add remote</b></p>
-				<p>git remote add <i>path/url</i></p>
-			<p><b>Fetch changes</b></p>
-				<p>git fetch <i>remote</i></p>
-			<p><b>Fetch + merge</b></p>
-				<p>git pull <i>remote branch</i></p>
-			<p><b>Publish local to remote</b></p>
-				<p>git push <i>remote branch</i></p>
-			<p><b>Delete remote branch</b></p>
-				<p>git push <i>remote :branch</i></p>
+			<p class="bold">Show information</p>
+				<p>git remote show <span>remote</span></p>
+			<p class="bold">Add remote</p>
+				<p>git remote add <span>path/url</span></p>
+			<p class="bold">Fetch changes</p>
+				<p>git fetch <span>remote</span></p>
+			<p class="bold">Fetch + merge</p>
+				<p>git pull <span>remote branch</span></p>
+			<p class="bold">Publish local to remote</p>
+				<p>git push <span>remote branch</span></p>
+			<p class="bold">Delete remote branch</p>
+				<p>git push <span>remote :branch</span></p>
 		</div>
 		<div><h3>Branches</h3>
-			<p><b>List branches</b></p>
+			<p class="bold">List branches</b></p>
 				<p>git branch</p>
-			<p><b>Switch to branch</b></p>
-				<p>git checkout <i>branch</i></p>
-			<p><b>Create new branch</b></p>
-				<p>git branch <i>new</i></p>
-			<p><b>Create branch from existing</b></p>
-				<p>git branch <i>new existing</i></p>
-			<p><b>Delete branch</b></p>
-				<p>git branch -d <i>branch</i></p>
+			<p class="bold">Switch to branch</p>
+				<p>git checkout <span>branch</span></p>
+			<p class="bold">Create new branch</p>
+				<p>git branch <span>new</span></p>
+			<p class="bold">Create branch from existing</p>
+				<p>git branch <span>new existing</span></p>
+			<p class="bold">Delete branch</p>
+				<p>git branch -d <span>branch</span></p>
 		</div>
 	</div>
 	<footer>

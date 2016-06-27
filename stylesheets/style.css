@@ -8,6 +8,14 @@ h3 {
 	color: #f44d27;
 }
 
-.content div p:nth-child(odd) {
+.content div p, span:nth-child(odd) {
 	background-color: #ccccff;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+span {
+	font-style: italic;
 }
