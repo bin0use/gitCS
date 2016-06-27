@@ -7,10 +7,14 @@ header, footer {
 	text-align: center;
 }
 
-nav ul li {
-	display: inline;
+h2 {
+	margin-bottom: 0px;
 }
 
+nav {
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
 .content {
 	display: flex;
 	flex-wrap: wrap;
