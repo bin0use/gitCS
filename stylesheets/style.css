@@ -7,6 +7,11 @@ nav ul li {
 	display: inline;
 }
 
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 h3 {
 	background-color: #aaaadd;
 	color: #f44d27;
